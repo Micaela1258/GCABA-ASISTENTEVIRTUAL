@@ -322,13 +322,15 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Estado de la base de conocimiento
-# Auto-indexar al arrancar si no hay base cargada
-if not Path(CHROMA_DIR).exists() or not any(Path(CHROMA_DIR).iterdir()):
-    if any(Path(DOCS_DIR).rglob("*")):
-        with st.spinner("Indexando documentos..."):
+# Auto-indexar siempre al arrancar
+if "indexado" not in st.session_state:
+    docs = [f for f in DOCS_DIR.rglob("*") if f.suffix.lower() in [".pdf", ".txt", ".md"]]
+    if docs:
+        with st.spinner(f"Indexando {len(docs)} documento(s)..."):
             vs_auto = rebuild_vectorstore()
             if vs_auto:
                 st.session_state["vectorstore"] = vs_auto
+                st.session_state["indexado"] = True
 
 vs_status = load_vectorstore()
 if vs_status:
