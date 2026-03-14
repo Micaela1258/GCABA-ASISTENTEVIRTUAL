@@ -143,7 +143,7 @@ hr { border-color: #e0ddd5 !important; }
 """, unsafe_allow_html=True)
 
 # ── Constantes ───────────────────────────────────────────────────────────────
-DOCS_DIR = Path("documentos")
+DOCS_DIR = Path(".")
 CHROMA_DIR = Path("chroma_db")
 DOCS_DIR.mkdir(exist_ok=True)
 CHROMA_DIR.mkdir(exist_ok=True)
