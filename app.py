@@ -3,7 +3,7 @@ import os
 from pathlib import Path
 from langchain_community.document_loaders import PyPDFLoader, TextLoader, DirectoryLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from langchain_community.vectorstores import Chroma
+from langchain_community.vectorstores import FAISS
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_classic.chains import ConversationalRetrievalChain
 from langchain_groq import ChatGroq
@@ -164,7 +164,7 @@ def load_vectorstore():
     if not any(CHROMA_DIR.iterdir()) if CHROMA_DIR.exists() else True:
         return None
     try:
-        vs = Chroma(persist_directory=str(CHROMA_DIR), embedding_function=embeddings)
+        vs = FAISS.load_local(str(CHROMA_DIR), embeddings, allow_dangerous_deserialization=True)
         if vs._collection.count() == 0:
             return None
         return vs
@@ -207,12 +207,8 @@ def rebuild_vectorstore():
         shutil.rmtree(CHROMA_DIR)
     CHROMA_DIR.mkdir()
 
-    vs = Chroma.from_documents(
-        all_docs,
-        embeddings,
-        persist_directory=str(CHROMA_DIR),
-    )
-    vs.persist()
+    vs = FAISS.from_documents(all_docs, embeddings)
+    vs.save_local(str(CHROMA_DIR))
     return vs
 
 def build_chain(vectorstore, api_key: str):
