@@ -322,6 +322,14 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Estado de la base de conocimiento
+# Auto-indexar al arrancar si no hay base cargada
+if not Path(CHROMA_DIR).exists() or not any(Path(CHROMA_DIR).iterdir()):
+    if any(Path(DOCS_DIR).rglob("*")):
+        with st.spinner("Indexando documentos..."):
+            vs_auto = rebuild_vectorstore()
+            if vs_auto:
+                st.session_state["vectorstore"] = vs_auto
+
 vs_status = load_vectorstore()
 if vs_status:
     n = vs_status._collection.count()
