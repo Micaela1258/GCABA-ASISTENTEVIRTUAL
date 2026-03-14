@@ -75,7 +75,7 @@ with st.sidebar:
     st.markdown("## Asistente GCBA")
     st.markdown("---")
     st.markdown("### Configuracion")
-    api_key = st.text_input("Groq API Key", type="password", placeholder="gsk_...")
+    api_key = st.secrets.get("GROQ_API_KEY", "") or st.text_input("Groq API Key", type="password", placeholder="gsk_...")
     st.markdown("---")
     st.markdown("### Documentos cargados")
     pdfs = list(DOCS_DIR.rglob("*.pdf")) + list(DOCS_DIR.rglob("*.txt"))
