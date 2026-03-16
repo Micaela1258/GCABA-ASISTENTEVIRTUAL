@@ -1,0 +1,101 @@
+JURISDICCION: MHFGC
+TIPO: Manual interno
+TITULO: Manual descriptivo de la tipología Investigación y Elaboración de Publicaciones
+PROGRAMA: Programa de Especialistas Profesionales (PEP)
+AREA: DG Planificación y Control Operativo - Subsecretaría de Gestión de Recursos Humanos
+FECHA: Enero 2025
+VERSION: 28.01.25
+---
+ 
+INTRODUCCION
+ 
+El presente documento se enmarca dentro del Programa de Especialistas Profesionales, creado por el Decreto N°289-24. El programa busca ampliar las oportunidades de desarrollo profesional de los/as funcionarios/as públicos/as identificados/as como especialistas, a través de la realización de un proyecto o de una formación específica, sumado a la participación en las jornadas de capacitación e intercambio.
+ 
+TIPOLOGIAS DEL PROGRAMA
+ 
+1. Diseño de políticas públicas: Generar propuestas que aborden problemáticas actuales en la jurisdicción en donde se desempeña.
+ 
+2. Investigación y elaboración de publicaciones: Elaborar un artículo de opinión académica sobre una política pública, que genere un insumo para el entendimiento de la misma y para la generación de futuras políticas públicas.
+ 
+3. Mejora y estandarización de procesos: Diseñar una propuesta de mejora de proceso ya existente en la jurisdicción donde se desempeña.
+ 
+4. Formación y capacitaciones: Aplicar a una beca del programa de becas del Instituto Superior de la Carrera (ISC).
+ 
+SEGUIMIENTO Y EVALUACION
+ 
+La evaluación de cada especialista es semestral y será llevada adelante por:
+- Autoridad Superior directa: tendrá en cuenta el desarrollo de las tareas correspondientes a su puesto de trabajo.
+- Tutor/a: valorará el desempeño durante el desarrollo del proyecto.
+- SGOPTCE: medirá el cumplimiento de las tareas vinculadas al programa.
+ 
+ACTORES Y RESPONSABILIDADES
+ 
+Especialista profesional:
+- Diseño y elaboración del proyecto según la tipología asignada.
+- Participación activa de las instancias obligatorias.
+- Mantener comunicación efectiva con el/la tutor/a y los/las referentes de la SGOPTCE.
+- Trabajar de manera colaborativa, compartiendo conocimientos y habilidades.
+- Generar lazos de intercambio con referentes de GCABA e integrantes del cuerpo de especialistas.
+ 
+Tutor/a:
+- Orientar a los/las especialistas a establecer objetivos claros y alcanzables.
+- Brindar retroalimentación constructiva sobre los avances del proyecto.
+- Completar las evaluaciones semestrales de los/las especialistas.
+- Mantener comunicación fluida, de por lo menos un contacto mensual, con el/la responsable de seguimiento.
+ 
+Referentes de seguimiento (SGOPTCE):
+- Coordinación y planificación de equipos y proyectos.
+- Monitoreo y seguimiento del programa.
+- Supervisar la asistencia y participación de los/las especialistas.
+ 
+DESCRIPCION DE LA TIPOLOGIA: INVESTIGACION Y ELABORACION DE PUBLICACIONES
+ 
+Abordajes posibles:
+1. Análisis comparativo de una política pública.
+2. Análisis de impacto y origen de la política pública.
+3. Análisis prospectivo de escenarios futuros.
+4. Estudio de administración pública y mecanismos institucionales.
+ 
+Objetivo general: Llevar adelante una investigación de manera interdisciplinaria, bajo lineamientos académicos, con la pretensión de profundizar en el conocimiento de una política pública vigente o una problemática social relevante para el GCABA.
+ 
+Objetivos específicos:
+- Desarrollar artículos de investigación que aborden problemáticas pertinentes para el GCABA.
+- Publicar y consolidar el conocimiento en una revista académica de relevancia.
+- Proporcionar insumos valiosos para el diseño y la formulación de políticas públicas futuras.
+ 
+ETAPAS Y ENTREGABLES
+ 
+ETAPA 0 - INICIO (Enero)
+La jurisdicción define la problemática y/o la política pública a investigar.
+ 
+ETAPA 1 - RELEVAMIENTO Y DEFINICION DE LA TEMATICA (Enero-Febrero)
+1.1 Análisis de la temática asignada.
+1.2 Selección de la temática, tipo de abordaje y título de la investigación.
+Entregable formal: E1 - Definición del problema.
+Entregable soporte: Esquema de trabajo.
+ 
+ETAPA 2 - MARCO TEORICO (Abril-Junio)
+2.1 Análisis de antecedentes y desarrollo de línea base.
+2.2 Desarrollo del marco teórico.
+Entregable formal: E2 - Desarrollo del marco teórico y antecedentes.
+Entregable soporte: Carpeta online con bibliografía y minutas de reuniones.
+ 
+ETAPA 3 - EJECUCION DE METODOLOGIA Y ANALISIS DE DATOS (Julio-Agosto)
+3.1 Selección del tipo de investigación, metodología, objetivos e hipótesis.
+3.2 Recolección de datos.
+3.3 Análisis de los datos recolectados.
+Entregable formal: E3 - Metodología.
+ 
+ETAPA 4 - DESARROLLO DEL INFORME (Septiembre-Octubre)
+4.1 Elaboración del informe preliminar.
+4.2 Revisión y retroalimentación con el/la tutor/a.
+Entregable formal: E4 - Análisis, desarrollo, conclusiones.
+ 
+ETAPA 5 - CIERRE Y PUBLICACION (Noviembre-Diciembre)
+5.1 Elaboración del artículo final de investigación.
+5.2 Confección de la presentación y exposición (30 minutos aproximadamente).
+5.3 Difusión y publicación a través de canales seleccionados por la SGOPTCE.
+Entregables formales: E5.1 Documento final, E5.2 Presentación.
+ 
+CONTACTO
+Ante cualquier consulta: profesionales_pep@buenosaires.gob.ar
